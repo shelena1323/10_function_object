@@ -173,7 +173,7 @@ const personGenerator = {
 
     randomDate: function() {
         let randomDay = this.randomIntNumber(max = 31, min = 1);
-        let randomYear = this.randomIntNumber(max = 2005, min = 1970);
+        let randomYear = this.randomIntNumber(max = 2000, min = 1970);
         let randomMonth = this.randomValue(this.monthJson);
         let birthd = `${randomDay}` +' ' + randomMonth + ' ' + `${randomYear}`+'г.';
         switch (randomMonth){
