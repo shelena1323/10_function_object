@@ -1,0 +1,29 @@
+body{    
+    background: url('https://images.unsplash.com/photo-1669328598481-2d514b77c771?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1935&q=80');
+    background-size: cover;
+    
+}
+
+.card {
+    background-color: rgba(198, 233, 184, 0.79);
+}
+
+.card-header{
+    background-color: rgba(225, 227, 89, 0.886);
+}
+
+#context {
+    color: rgba(12, 37, 146, 0.925);
+}
+
+#surnameOutput{
+    color: black;
+}
+
+#firstNameOutput{
+    color: black;
+}
+
+#patronymicOutput{
+    color: black;
+}
